@@ -1,0 +1,25 @@
+.login {
+    flex: 1;
+    display: grid;
+    place-items: center;
+}
+
+.login-container {
+    text-align: center;
+    padding: 200px;
+    border-radius: 15px;
+    background-color: black;
+    box-shadow: -1px 4px 10px -6px hsl(0, 0%, 2%);
+}
+
+.login-container > img {
+    object-fit: contain;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.login-container > button {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: var(--body-background);
+}
