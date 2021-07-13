@@ -17,7 +17,7 @@ function App() {
                         <Sidebar />
         
                         <Switch>
-                            <Route path="/room/:roomId" component={ Chat } />
+                            <Route path="/React-plus-Firebase-Chat-Application/room/:roomId" component={ Chat } />
                         </Switch>
                     </Router>
                 ) : (
