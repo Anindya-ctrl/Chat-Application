@@ -4,12 +4,12 @@ import 'firebase/firestore';
 
 // INITIALIZE APP WITH CONFIG
 const app = firebase.initializeApp({
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    apiKey: 'AIzaSyBw0A_GJ9IBhLOTiwIWOlV5L9HqGU9lfUQ',
+    authDomain: 'spotify-clone-4741e.firebaseapp.com',
+    projectId: 'spotify-clone-4741e',
+    storageBucket: 'spotify-clone-4741e.appspot.com',
+    messagingSenderId: '715251104000',
+    appId: '1:715251104000:web:b77190e8ba6907ab18dbe5',
 });
 
 // AUTHENTICATION INSTANCE
