@@ -8,7 +8,7 @@ function SidebarRoom({ roomId, roomName }) {
     const { messagesInThisRoom } = useData(roomId);
 
     return (
-        <Link to={ `/React-plus-Firebase-Chat-Application/room/${ roomId }` }>
+        <Link to={ `/room/${ roomId }` }>
             <div className="sidebar-room">
                 <Avatar />
                 
